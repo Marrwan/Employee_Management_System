@@ -2,16 +2,14 @@
 
 # EMPLOYEE MANAGEMENT SYSTEM
 
-Clone this repository
-
-run npm install
-
-Create .env file, copy everything in .env.example and paste it in .env
-
-Create a new database in your phpmyadmin, name it with the same as the database name in .env;
-
-run php artisan migrate
-
-cd public
-
-run php -S localhost:3000
+### Installation
+* Run `git clonehttps://github.com/Marrwan/Employee_Management_System.git`
+* `cd Employee_Management_System` 
+* Run `composer install` (install composer beforehand)
+* From the projects root run `cp .env.example .env`
+* Configure your `.env` file 
+* Run `npm install && npm run dev`
+*Create a new database in your phpmyadmin, name it with the same as the database name in .env;
+*run php artisan migrate
+*cd public
+*run php -S localhost:3000
