@@ -28,7 +28,7 @@
         {{Form::select('department', ['Web Development' => 'Web Development','Graphics Designing' => 'Graphics Designing', 'Mobile Development'  => 'Mobile Development', 'Data Science' => 'Data Science', ], 'Department', ['class' => 'form-control','placeholder' => 'Employee Department'])}}
     </div>
     
-  
+
 
     {{form::submit('Submit', ['class' =>'btn btn-success' ])}}
     {!! Form::close() !!}
