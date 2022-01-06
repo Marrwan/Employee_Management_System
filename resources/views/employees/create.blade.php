@@ -12,7 +12,7 @@
         {{Form::email('email', '', ['class' => 'form-control', 'placeholder' => 'Employee Email'])}}
     </div>
     <div class="form-group">
-        {{Form::label('salary', 'Email')}}
+        {{Form::label('salary', 'Salary')}}
         {{Form::number('salary', '',  ['min'=>100 ,'class' => 'form-control', 'placeholder' => 'Employee Salary'])}}
     </div>
     <div class="form-group">
