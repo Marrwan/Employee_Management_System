@@ -16,10 +16,10 @@
 
 * Run `npm install && npm run dev`
 
-*Create a new database in your phpmyadmin, name it with the same as the database name in .env
+* Create a new database in your phpmyadmin, name it with the same as the database name in .env
 
-*run php artisan migrate
+* run php artisan migrate
 
-*cd public
+* cd public
 
-*run php -S localhost:3000
+* run php -S localhost:3000
